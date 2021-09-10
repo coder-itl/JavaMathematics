@@ -5,7 +5,7 @@ package com.coderitl;
  */
 public class Program01 {
     public static void main(String[] args) {
-        /* 1. 求Fibonacci数列，1、2、3、5、8、13…..前10项数的和  */
+        /* 1. 求Fibonacci数列，1、2、3、5、8、13…..前10项数的和 */
         int[] array = new int[11];
         int sum = 0;
         int init = 2;
