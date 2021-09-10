@@ -7,10 +7,10 @@ package com.coderitl;
 
 public class Program08 {
     public static void main(String[] args) {
-        /* æœ‰ä¸€åˆ†æ•°åºåˆ—ï¼š2/1,3/2,5/3,8/5,13/8,21/13...æ±‚å‡ºè¿™ä¸ªæ•°åˆ—çš„å‰ 20 é¡¹ä¹‹å’Œ */
+        /* ÓĞÒ»·ÖÊıĞòÁĞ£º2/1,3/2,5/3,8/5,13/8,21/13...Çó³öÕâ¸öÊıÁĞµÄÇ° 20 ÏîÖ®ºÍ */
         /*
-         * 2 3 5 8 13 21 a åˆ†å­
-         * 1 2 3 5 8 13 b åˆ†æ¯
+         * 2 3 5 8 13 21 a ·Ö×Ó
+         * 1 2 3 5 8 13 b ·ÖÄ¸
          * -------------
          */
 
@@ -27,8 +27,8 @@ public class Program08 {
             b = c;
             sum += b / a;
         }
-
-        System.out.println(sum);
+        System.out.println();
+        System.out.println("Õâ¸öÊıÁĞµÄÇ° 20 ÏîÖ®ºÍ: "+sum);
 
     }
 }

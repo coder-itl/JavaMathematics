@@ -16,8 +16,9 @@ public class Program06 {
                     break;
                 }
             }
+
             if (flag) {
-                System.out.println(i);
+                System.out.print(i+"\t");
             }
         }
 

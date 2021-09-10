@@ -5,7 +5,7 @@ package com.coderitl;
  */
 public class Program07 {
     public static void main(String[] args) {
-        /* æœ‰ 1ã€2ã€3ã€4ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šå°‘ä¸ªäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°ï¼Ÿéƒ½æ˜¯å¤šå°‘ */
+        /* ÓĞ 1¡¢2¡¢3¡¢4¸öÊı×Ö£¬ÄÜ×é³É¶àÉÙ¸ö»¥²»ÏàÍ¬ÇÒÎŞÖØ¸´Êı×ÖµÄÈıÎ»Êı£¿¶¼ÊÇ¶àÉÙ */
         int number = 0, count = 0;
         int init = 5;
 
@@ -14,7 +14,7 @@ public class Program07 {
                 for (int c = 1; c < init; c++) {
                     /*  123 = 1 * 100 + 2 * 10 + 3  */
                     number = a * 100 + b * 10 + c;
-                    /* æ¡ä»¶é™åˆ¶: äº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­— */
+                    /* Ìõ¼şÏŞÖÆ: »¥²»ÏàÍ¬ÇÒÎŞÖØ¸´Êı×Ö */
                     if (a != b && a != c && b != c) {
                         System.out.print(number + " ");
                         count++;
@@ -24,6 +24,7 @@ public class Program07 {
         }
 
         System.out.println();
-        System.out.println("æœ‰ 1ã€2ã€3ã€4ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°çš„æ€»ä¸ªæ•°æ˜¯: " + count);
+        System.out.println();
+        System.out.println("ÓĞ 1¡¢2¡¢3¡¢4¸öÊı×Ö£¬ÄÜ×é³É¶à»¥²»ÏàÍ¬ÇÒÎŞÖØ¸´Êı×ÖµÄÈıÎ»ÊıµÄ×Ü¸öÊıÊÇ: " + count);
     }
 }
