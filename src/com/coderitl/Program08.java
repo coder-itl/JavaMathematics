@@ -1,8 +1,5 @@
 package com.coderitl;
 
-import java.util.concurrent.ForkJoinPool;
-
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
 /**
  * @author ccoderitl
@@ -16,17 +13,21 @@ public class Program08 {
          * 1 2 3 5 8 13 b 分母
          * -------------
          */
-        double a = 1,  /*  a 分母 */
-               b = 1, /* b 分子 */
-               c = 0, /* c 前两项之和 */
-               sum = 0; /* 前 N 项和 */
 
-        for (int i = 0; i < 20; i++) {
-            c = a + b; /* 2 = 1 + 1 */ 
-            a = b; /* a=1 */
-            b = c;  /* b=2 */
+        int init = 20;
+
+        double a = 1,
+                b = 1,
+                c = 0,
+                sum = 0;
+
+        for (int i = 0; i < init; i++) {
+            c = a + b;
+            a = b;
+            b = c;
             sum += b / a;
         }
+
         System.out.println(sum);
 
     }
